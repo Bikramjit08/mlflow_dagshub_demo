@@ -24,7 +24,7 @@ X_train,X_test,y_train,y_test = train_test_split(X,y, test_size=0.2, random_stat
 
 # define the parameters for the random forest model
 
-max_depth =4
+max_depth = 10
 
 
 # apply mlflow
