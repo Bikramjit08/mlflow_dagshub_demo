@@ -30,7 +30,7 @@ max_depth =4
 # apply mlflow
 
 # one way to specify name of experiment
-mlflow.set_experiment('iris-dt')
+mlflow.set_experiment('iris-dt1')
 
 with mlflow.start_run():
     dt = DecisionTreeClassifier(max_depth=max_depth)
